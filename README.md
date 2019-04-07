@@ -13,5 +13,5 @@
 
 - Algorithm：[w1](./Algorithm/w1.md)
 - Review：[w1](./Review/w1.md)
-- Tip：[w1](./Tips/w1.md)
+- Tip：[w1](./Tip/w1.md)
 - Share：[w1](./Share/w1.md)
