@@ -46,12 +46,13 @@ class Solution:
 ```Python
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        if len(A) == 0:
+        if len(nums) == 0:
             return 0
         j = 0
-        for i in range(0, len(A)):
-            if A[i] != A[j]:
-                A[i], A[j+1] = A[j+1], A[i]
+        for i in range(0, len(nums)):
+            if nums[i] != nums[j]:
+                nums[j+1] = nums[i]
                 j = j + 1
         return j+1
  ```
+ 
